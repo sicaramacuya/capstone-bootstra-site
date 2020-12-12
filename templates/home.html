@@ -19,7 +19,37 @@ Space Launches | Home
                 <a class="nav-link active" aria-current="page" href="/spacex">SpaceX</a>
                 <a class="nav-link active" href="/ula">United Launch Alliance</a>
                 <a class="nav-link active" href="/rocketlab">Rocket Lab</a>
-                <a class="nav-link active" href="#">Subscirbe</a>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Newsletter
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Name</label>
+                                <input class="form-control" id="exampleFormControlTextarea1" type="text"></input>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Subscribe to Newsletter</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
             </div>
         </div>
@@ -49,7 +79,7 @@ Space Launches | Home
         <div class="row">
         <div class="col-md-8 offset-sm-4">
             <div class="d-grid gap-2 col-10 mx-auto pt-5">
-                <a href="/ula"><button class="btn btn-dark lead" type="button" style="font-size: 5.25rem;">Launch Schedule!</button></a>
+                <a href="/ula"><button class="btn btn-dark lead" type="button" style="font-size: 5.25rem;">Launch Preview!</button></a>
             </div>
         </div>
         </div>
@@ -72,7 +102,7 @@ Space Launches | Home
     </div>
 </section>
 
-<footer class="bg-light text-muted p-5" id="footer">
+<footer class="bg-light text-muted py-4" id="footer">
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
